@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link href="main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="weather-channel__container">
+      <header>
+        <img class="header__logo" src="icon/logo.png" />
+        <h1 class="header__title">Weather Channel</h1>
+      </header>
+      <main>
+	  <nav>
+        <div style="flex:1; ">
+          <input class="search-input" />
+          <button class="search-btn"><i class="fa fa-search"></i></button>
+
+          <button class="temp-switch">
+            <i
+              class="fa fa-thermometer-empty"
+              aria-hidden="true"
+              style="padding-right:5px"
+            ></i>
+            <sup>&deg;</sup>C
+          </button>
+        </div>
+      </nav>
+
+        <section class="weather-condition">
+          <div class="weather-condition__location">Brisbane</div>
+          <div style="text-align: center; font-size: 14px">Clear</div>
+          <div class="weather-condition__temp">19 c</div>
+          <div class="weather-condition__desc">
+            <div>
+              <img src="icon/icon-umberella.png" />
+              <span class="citem">20%</span>
+            </div>
+            <div>
+              <img src="icon/icon-wind.png" /> <span class="citem">3 km/h</span>
+            </div>
+            <div>
+              <img src="icon/icon-compass.png" /> <span class="citem">NE</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="weather-forecast">
+          <div class="forecast__switch">
+            <button class="forecast__switch_0 switch-active">5 items</button>
+            <button class="forecast__switch_1">10 items</button>
+          </div>
+
+          <div class="weather-forecast__row">
+            <span class="weather-forecast__day">Fri</span>
+            <span class="weather-forecast__icon">
+              <i class="fa fa-clock-o"></i> 10:00
+            </span>
+            <span class="weather-forecast__high">19 c</span>
+            <span class="weather-forecast__low">8 c</span>
+          </div>
+          <div class="weather-forecast__row">
+            <span class="weather-forecast__day">Fri</span>
+            <span class="weather-forecast__icon">
+              <i class="fa fa-clock-o"></i> 13:00
+            </span>
+            <span class="weather-forecast__high">19 c</span>
+            <span class="weather-forecast__low">8 c</span>
+          </div>
+
+          <div class="weather-forecast__row">
+            <span class="weather-forecast__day">Fri</span>
+            <span class="weather-forecast__icon">
+              <i class="fa fa-clock-o"></i> 16:00
+            </span>
+            <span class="weather-forecast__high">19 c</span>
+            <span class="weather-forecast__low">8 c</span>
+          </div>
+        </section>
+      </main>
+
+      <footer class="weather-channel__footer"><p>Powered by React</p></footer>
+    </div>
+  </body>
+</html>
