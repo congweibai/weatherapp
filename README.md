@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<a href="http://weatherapp-one.vercel.app/" target="_blank">Live Demo</a>
+<a href="http://weatherapp-one.vercel.app/" target="_blank">Live Demo</a> or http://weatherapp-one.vercel.app/
 
 ## Available Scripts
 
